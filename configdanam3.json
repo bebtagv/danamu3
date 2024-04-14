@@ -1,10 +1,10 @@
 {
   "apps": [
     {
-      "status": 1,
+      "status": true,
       "redirect_url": "",
-      "privacy_policy_url": "https://sites.google.com/view/lunomosikvid",
-	  "email_feedback_and_report": "lynoku.square7@gmail.com",
+      "privacy_policy_url": "https://raw.githubusercontent.com/solodroidev/content/uploads/privacy/guide.html",
+      "email_feedback_and_report": "youremail@gmail.com",
       "webview_cache": true,
       "post_list_in_large_style": false,
       "show_post_list_header": true,
@@ -14,30 +14,30 @@
       "show_related_posts": true,
       "enable_rtl_mode": false,
       "enable_exit_dialog": true,
-      "enable_app_protection": false,
-      "enable_dark_mode_as_default_theme": false,
-      "youtube_api_key": "0",
-      "base64_license_key": ""
+      "enable_dark_mode_as_default_theme": false
     }
   ],
   "ads": [
     {
-      "ad_status": 1,
-      "main_ad": "fan",
-      "backup_ad": "applovin_max",
-      "admob_banner_unit_id": "ca-app-pub-3940256099942544/6300978111",
+      "ad_status": true,
+      "main_ad": "admob",
+      "backup_ad": "alien",
+      "admob_banner_unit_id": "ca-app-pub-3940256099942544/9214589741",
       "admob_interstitial_unit_id": "ca-app-pub-3940256099942544/1033173712",
       "admob_native_unit_id": "ca-app-pub-3940256099942544/2247696110",
-      "admob_app_open_unit_id": "ca-app-pub-3940256099942544/3419835294",
+      "admob_app_open_unit_id": "ca-app-pub-3940256099942544/9257395921",
       "ad_manager_banner_unit_id": "/6499/example/banner",
       "ad_manager_interstitial_unit_id": "/6499/example/interstitial",
       "ad_manager_native_unit_id": "/6499/example/native",
       "ad_manager_app_open_unit_id": "/6499/example/app-open",
-      "fan_banner_unit_id": "IMG_16_9_APP_INSTALL#875028477432480_875028677432460",
-      "fan_interstitial_unit_id": "IMG_16_9_APP_INSTALL#875028477432480_875028697432458",
-      "fan_native_unit_id": "0",
+      "alien_ads_banner_unit_id": "testing",
+      "alien_ads_interstitial_unit_id": "testing",
+      "alien_ads_native_unit_id": "testing",
+      "fan_banner_unit_id": "YOUR_PLACEMENT_ID",
+      "fan_interstitial_unit_id": "YOUR_PLACEMENT_ID",
+      "fan_native_unit_id": "YOUR_PLACEMENT_ID",
       "startapp_app_id": "0",
-      "unity_game_id": "180600305",
+      "unity_game_id": "4089993",
       "unity_banner_placement_id": "banner",
       "unity_interstitial_placement_id": "video",
       "applovin_banner_unit_id": "0",
@@ -45,13 +45,19 @@
       "applovin_native_manual_unit_id": "0",
       "applovin_open_ad_unit_id": "0",
       "applovin_banner_zone_id": "0",
+      "applovin_banner_mrec_zone_id": "0",
       "applovin_interstitial_zone_id": "0",
-      "ironsource_app_key": "0",
+      "ironsource_app_key": "85460dcd",
       "ironsource_banner_id": "DefaultBanner",
       "ironsource_interstitial_id": "DefaultInterstitial",
-      "interstitial_ad_interval": 2,
+      "wortise_app_id": "test-app-id",
+      "wortise_banner_id": "test-banner",
+      "wortise_interstitial_id": "test-interstitial",
+      "wortise_native_id": "test-native",
+      "wortise_app_open_id": "test-app-open",
+      "interstitial_ad_interval": 3,
       "native_ad_index": 1,
-      "native_ad_interval": 5,
+      "native_ad_interval": 8,
       "native_ad_style": "medium",
       "native_ad_post_details_position": "top",
       "show_banner_ad_home": true,
@@ -62,103 +68,172 @@
       "show_interstitial_ad_post_details": true,
       "show_native_ad_post_list": true,
       "show_native_ad_post_details": true,
-      "show_app_open_ad": true
+      "show_native_ad_exit_dialog": true,
+      "show_open_ad_on_app_start": true,
+      "show_open_ad_on_app_resume": true
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Cara Manajemen Keuangan bersama DanaMu",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png"
-    }
-  ],
-  "posts": [{
-      "id": 1,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Aplikasi Danamu",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/1 Aplikasi Danamu.html",
-      "video": ""
-    },{
+      "name": "Apps",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/apps.png"
+    },
+    {
       "id": 2,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Syarat Daftar Aplikasi Danamu",
-      "image": "https://djenewapul.uk/Danamu2/2 Syarat Daftar Aplikasi Danamu.html",
-      "video": ""
+      "name": "Game",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/game.png"
     },
     {
       "id": 3,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Panduan Lengkap Cara Daftar Aplikasi Danamu",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/3 Panduan Lengkap Cara Daftar Aplikasi Danamu.html",
-      "video": ""
-    },{
+      "name": "OS",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/os.png"
+    },
+    {
       "id": 4,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Rahasia Cara Cepat Cair Aplikasi Danamu",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/5 Rahasia Cara Cepat Cair Aplikasi Danamu.html",
-      "video": ""
-    },{
+      "name": "Coding",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/programming.png"
+    },
+    {
       "id": 5,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Cara Mengenali Pinjaman yang Aman dan Legal",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/6 Cara Mengenali Pinjaman yang Aman dan Legal.html",
-      "video": ""
-    },{
+      "name": "Mods",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/mods.png"
+    },
+    {
       "id": 6,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Daftar Lender Pinjaman Online Tenor Panjang di Indonesia",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/7 Daftar Lender Pinjaman Online Tenor Panjang di Indonesia.html",
-      "video": ""
-    },{
+      "name": "How To",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/how-to.png"
+    },
+    {
       "id": 7,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Daftar Lender Pinjaman Online Terpercaya di Indonesia",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/8  Daftar Lender Pinjaman Online Terpercaya di Indonesia.html",
-      "video": ""
-    },{
+      "name": "Tips & Trick",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/tips-trick.png"
+    },
+    {
       "id": 8,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Pinjaman Tenor 1 Bulan",
-      "image": "https://djenewapul.uk/Danamu2/9 Pinjaman Tenor 1 Bulan.html",
-      "video": ""
-    },{
+      "name": "Lifestyle",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/lifestyle.png"
+    },
+    {
       "id": 9,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Tips Pinjaman Online Tenor 7 Hari",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/10 Tips Pinjaman Online Tenor 7 Hari.html",
+      "name": "Android",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/category/android.png"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "category": "Game, Tips & Trick",
+      "title": "Free Fire: Top 10 best M1014 gun skins in the game",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/free-fire.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/free-fire.html",
       "video": ""
-    },{
+    },
+    {
+      "id": 2,
+      "category": "How To, Lifestyle",
+      "title": "IKEA Malm Bed Building Tips - How to Build IKEA Furniture",
+      "image": "https://img.youtube.com/vi/EyH2rXSE6mM/mqdefault.jpg",
+      "content": "<p>This tutorial video is the exact opposite of the previous one about becoming more confident in public speaking. This is a finely drawn topic. It’s not how to put a bed frame together, it’s how to put the IKEA Malm bed frame together.</p><p>There’s no voiceover, the only audio in this tutorial video is the background music. But the audience is never left feeling lost for instruction. There are strategic callouts, which give tips and names of the specific parts being used. It’s a clever solution to a potentially dull voiceover detailing where to put screws.</p>",
+      "video": "https://www.youtube.com/watch?v=EyH2rXSE6mM&t=18s"
+    },
+    {
+      "id": 3,
+      "category": "Coding, Apps",
+      "title": "Object Oriented Programming Breakdown for Beginners",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/programming.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/programming.html",
+      "video": ""
+    },
+    {
+      "id": 4,
+      "category": "Game",
+      "title": "Mobile Legends on PC Bruno Guide: Best Build, Emblem and Gameplay Tips",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/mobile-legends.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/mobile-legends.html",
+      "video": ""
+    },
+    {
+      "id": 5,
+      "category": "Game",
+      "title": "PUBG New State on PC: Global launch time based on your country",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/pubg.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/pubg.html",
+      "video": ""
+    },
+    {
+      "id": 6,
+      "category": "Tips & Trick",
+      "title": "Awaken: Chaos Era: The complete Reroll guide and tips",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/chaos-era.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/chaos-era.html",
+      "video": ""
+    },
+    {
+      "id": 7,
+      "category": "OS, Apps",
+      "title": "How to build your own custom Android ROM",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/android.jpg",
+      "content": "file:///android_asset/how-to-build-your-own-custom-android-rom.html",
+      "video": ""
+    },
+    {
+      "id": 8,
+      "category": "Apps",
+      "title": "How to hide your iPhone photos in iOS 16",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/ios.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/ios.html",
+      "video": ""
+    },
+    {
+      "id": 9,
+      "category": "Mods",
+      "title": "The Witcher 3 Complete Edition Mods List",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/the-witcher.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/the-witcher.html",
+      "video": ""
+    },
+    {
       "id": 10,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Pinjaman Tunai Aman di Indonesia",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/11 Pinjaman Tunai Aman di Indonesia.html",
-       "video": ""
-	},{
+      "category": "Lifestyle",
+      "title": "Holiday survival guide: How to seize the season before it seizes you",
+      "image": "https://img.youtube.com/vi/c-Rq61sXpV0/mqdefault.jpg",
+      "content": "<p>If you&rsquo;re dreading decking the halls with your relatives this year, there are seasonal survival tips that may help you get through the holidays.</p><p>If you feel holidays are more of a hassle than a hallmark movie, you&rsquo;re not alone. According to a recent poll, at least 75 percent of Americans admit they need to escape family this time of year. But there are ways to make the most of the season.</p><p>On average, Americans will stay with family for three and a half days and nearly 40 percent say finding sleeping arrangements is one of the most stressful parts of preparing for out-of-town family.</p><p>Other top concerns are lack of privacy, family getting on your nerves, and drama between family members.</p><p>&ldquo;Most of us want harmony in our families,&rdquo; says Family &amp; Marriage Therapist, Cherlette McCullough.</p><p>One of the most important sanity savers is to plan early, know who&rsquo;s traveling, and what the sleeping arrangements are.</p><p>Set realistic expectations for yourself. When you adjust your mindset to something that&rsquo;s realistic, you&rsquo;re already ahead of the game. It&rsquo;s important to find a balance between being generous and hospitable. Most importantly, keep the lines of communication open with your significant other about how you are feeling.</p><p>&ldquo;If you&rsquo;re feeling that you&rsquo;re not accepted, I would say the first thing too, talk to your mate about that,&rdquo; said McCullough.</p><p>One last tip, try outsourcing some of your big holiday meals. Experts say order in all of the holiday sides and trimmings and just focus on the turkey or ham. That way you spend less time in the kitchen and more time enjoying the season.</p>",
+      "video": "https://www.youtube.com/watch?v=c-Rq61sXpV0"
+    },
+    {
       "id": 11,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Tips Memilih Pinjaman Bunga Rendah Terbaik",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/12 Tips Memilih Pinjaman Bunga Rendah Terbaik.html",
-       "video": ""
-	}
-	,{
-      "id": 12,
-      "category": "Cara Manajemen Keuangan bersama DanaMu",
-      "title": "Tips Pinjaman Galbay",
-      "image": "https://djenewapul.uk/Danamu2/bannerdanam2.png",
-      "content": "https://djenewapul.uk/Danamu2/13 Tips Pinjaman Galbay.html",
-       "video": ""
-	}
+      "category": "Lifestyle",
+      "title": "Your Step-by-Step Guide to Filling Out a Money Order",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/posts/money-order.jpg",
+      "content": "https://raw.githubusercontent.com/solodroidev/content/uploads/html/guide/money-order.html",
+      "video": ""
+    }
   ],
   "more_apps": [
-    
+    {
+      "id": 1,
+      "title": "Guide Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/guide/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-guide-json-android-news-app-191"
+    },
+    {
+      "id": 2,
+      "title": "Stream Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/stream/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-stream-json-live-tv-video-streaming-197"
+    },
+    {
+      "id": 3,
+      "title": "WebView Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/webview/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-webview-json-android-webview-app-207"
+    },
+    {
+      "id": 4,
+      "title": "Wallpaper Json",
+      "image": "https://raw.githubusercontent.com/solodroidev/content/uploads/images/wallpaper/thumbnail.png",
+      "url": "https://aliendro.id/solodroid-wallpaper-json-android-wallpaper-app-212"
+    }
   ]
 }
